@@ -1,5 +1,5 @@
 task createreport(type: Zip) {
-   from '/gradle-test/'
+   from '/var/lib/jenkins/workspace/Gradle_test_zip'
    archiveName 'Reports.zip'
-   destinationDir(file('//gradle-test/Reports'))
+   destinationDir(file('///var/lib/jenkins/workspace/Gradle_test_zip/Reports'))
 }
