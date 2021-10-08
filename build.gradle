@@ -1,0 +1,5 @@
+task createreport(type: Zip) {
+   from '/gradle-test'
+   archiveName 'Reports.zip'
+   destinationDir(file('//gradle-test/Reports'))
+}
